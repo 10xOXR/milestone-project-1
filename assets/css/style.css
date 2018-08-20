@@ -1,0 +1,60 @@
+
+
+/* --------------------------------------------------------------------- Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-header {
+    margin: 10px 0;
+}
+
+.navbar-nav li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: normal;
+}
+
+.navbar-btn {
+    margin-right: 15px;
+    width: 150px;
+    height:60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* --------------------------------------------------------------------- Header */
+
+.header-img {
+    height: 100vh;
+    background: url(/assets/images/the_discworld.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* --------------------------------------------------------------------- Footer */
+
+footer {
+    margin: 0;
+    max-height: 60px;
+    background-color: #fafafa;
+}
+
+.footer-main {
+    line-height: 4em;
+}
