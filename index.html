@@ -7,15 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Uncial+Antiqua" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Introduction to the Discworld Series</title>
 </head>
 
+
 <body>
     <!-- NAV -->
-    <nav class="navbar navbar-default">
+    <nav class="container-fluid navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
         <!-- NAVBAR -->
-        <div class="navbar-header navbar-right hidden-xs">
+        <div class="navbar-collapse collapse navbar-right" id="navbar">
             <ul class="nav navbar-nav">
                 <li class="active">
                     <a href="index.html" class="btn btn-default navbar-btn text-uppercase">Home</a>
@@ -37,31 +48,87 @@
                 </li>
             </ul>
         </div>
-        <!-- END-NAVBAR -->
+        <!-- /NAVBAR -->
     </nav>
-    <!-- END-NAV -->
+    <!-- /NAV -->
 
-    <!-- HEADER -->
-    <header>
-        <div class="header-img">
-            
+    <header class="container-fluid landing-container">
+        <div class="overlay">&nbsp;</div>
+        <!-- LANDING-SECTION -->
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="jumbotron text-center">
+                    <h1>Introduction to the Discworld series</h1>
+                    <h3>A brief overview of the Discworld series, created by Sir Terry Pratchett</h3>
+                </section>
+            </div>
         </div>
+        <!-- /LANDING-SECTION -->
     </header>
 
-    <section class="container-fluid">
-        
+    <section class="container content-container">
+        <!-- DISC-OVERVIEW -->
+        <article class="article-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content-single-img">
+                        <a href="/assets/images/disc_map.jpg" target="_blank">
+                            <img src="/assets/images/disc_map.jpg" class="img-rounded img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="content-side-text">
+                        <h2 class="text-center">Discworld Overview</h2>
+                        <p>Lorem ipsum dolor sit amet, ius ad lorem nostro repudiandae. Et choro maiorum duo. Noluisse electram
+                            eam ex, mutat clita cotidieque ei duo. Vel iusto vivendo consequuntur eu, dolorem admodum mel
+                            ad. Pri ut bonorum quaestio, eum te nobis graecis dissentiunt. Commodo blandit eu quo, cum at
+                            wisi diceret sapientem, iudico nostrud postulant pro ad. Quo ea movet viderer electram, ne est
+                            equidem laoreet. Omnis antiopam interesset eam no, no minim omnes semper qui. Cum alia atqui
+                            aeque ex. Ei summo animal quo, ea eos fabulas verterem instructior. Pri ex justo aliquip.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- /DISC-OVERVIEW -->
+
+        <!-- PRATCHETT-BIO -->
+        <article class="article-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="content-single-img">
+                        <a href="/assets/images/Pratchett_portrait.jpg" target="_blank">
+                            <img src="/assets/images/Pratchett_portrait.jpg" class="img-rounded img-responsive">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="content-side-text">
+                        <h2 class="text-center">Sir Terry Pratchett - Brief Bio</h2>
+                        <p>Lorem ipsum dolor sit amet, ius ad lorem nostro repudiandae. Et choro maiorum duo. Noluisse electram
+                            eam ex, mutat clita cotidieque ei duo. Vel iusto vivendo consequuntur eu, dolorem admodum mel
+                            ad. Pri ut bonorum quaestio, eum te nobis graecis dissentiunt. Commodo blandit eu quo, cum at
+                            wisi diceret sapientem, iudico nostrud postulant pro ad. Quo ea movet viderer electram, ne est
+                            equidem laoreet. Omnis antiopam interesset eam no, no minim omnes semper qui. Cum alia atqui
+                            aeque ex. Ei summo animal quo, ea eos fabulas verterem instructior. Pri ex justo aliquip.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- /PRATCHETT-BIO -->
     </section>
 
     <footer class="container-fluid">
-        <div class="col-md-12">
-            <p class="footer-main">
-                &copy; 2018 Chris Quinn. All product names, trademarks, and registered trademarks are property of their respective owners.
-            </p>
-        </div>
+        <p>
+            &copy; 2018 Chris Quinn.
+            <br>All product names, trademarks, and registered trademarks are property of their respective owners.
+        </p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
