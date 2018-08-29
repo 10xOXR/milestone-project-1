@@ -6,7 +6,8 @@ body {
 
 /* --------------------------------------------------------------------- CONTAINERS */
 
-.landing-container {
+.landing-container,
+.landing-container-disc {
     height: 100vh;
     background: url(/assets/images/cover_discworld.jpg) no-repeat fixed;
     -webkit-background-size: cover;
@@ -17,6 +18,12 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.landing-container-disc {
+    height: 50vh;
+    background: url(/assets/images/cover_discworld.jpg) no-repeat fixed;
+    margin-top: 60px;
 }
 
 .overlay {
@@ -48,7 +55,7 @@ nav .container-fluid {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
     border: 0;
     border-radius: 0;
 }
@@ -110,7 +117,7 @@ nav .container-fluid {
     border-radius: 5px;
 }
 
-/* --------------------------------------------------------------------- JUMBOTRON */
+/* --------------------------------------------------------------------- JUMBOTRONS */
 
 .jumbotron {
     background-color: transparent;
