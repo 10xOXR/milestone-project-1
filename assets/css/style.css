@@ -150,18 +150,6 @@ nav .container-fluid {
     font-size: 1.45em;
 }
 
-/* Page Headers */
-
-.page-header {
-    text-align: center;
-    margin-bottom: 0;
-    border-bottom: 0;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
 /* --------------------------------------------------------------------- FOOTER */
 
 footer {
