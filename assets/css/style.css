@@ -44,7 +44,8 @@ body {
     padding: 40px 40px 0 40px;
 }
 
-.article-container {    
+.article-container {
+    margin-top: 40px;  
     margin-bottom: 80px;
 }
 
@@ -159,16 +160,6 @@ nav .container-fluid {
 
 .page-header h2 {
     margin-top: 0;
-}
-
-/* Quotes */
-
-blockquote.quote {
-    border-left: 0;
-}
-
-.quotes .page-header {
-    margin-bottom: 25px;
 }
 
 /* --------------------------------------------------------------------- FOOTER */
