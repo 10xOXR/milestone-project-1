@@ -198,10 +198,6 @@ footer p {
     background-color: #B44822;
   }
 
-  #button:active {
-    background-color: #B44822;
-  }
-
   #button.show {
     opacity: 0.7;
     visibility: visible;
