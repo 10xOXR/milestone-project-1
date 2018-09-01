@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: ##FEFEFC;
+    background-color: #FEFEFC;
     overflow-x: hidden;
 }
 
@@ -152,6 +152,13 @@ nav .container-fluid {
     border-radius: 20px;
     border: 1px solid #FF9121;
     font-size: 1.45em;
+}
+
+.title-divider {
+    width: 80px;
+    height: 5px;
+    border: 0;
+    background-color: #FF9121;
 }
 
 /* --------------------------------------------------------------------- FOOTER */
