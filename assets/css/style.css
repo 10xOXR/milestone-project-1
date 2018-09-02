@@ -135,7 +135,7 @@ nav .container-fluid {
     margin-bottom: 30px;
 }
 
-/* --------------------------------------------------------------------- MAIN-IMAGES */
+/* --------------------------------------------------------------------- MAIN-IMAGES/TEXT */
 
 .content-single-img {
     max-width: 400px;
@@ -145,12 +145,49 @@ nav .container-fluid {
     margin-bottom: 20px;
 }
 
-.content-side-text {
+.content-side-text,
+.content-table-text {
     padding: 20px;
     background-color: rgba(255, 222, 112, 0.2);
     border-radius: 20px;
     border: 1px solid #FF9121;
+}
+
+.content-side-text {
     font-size: 1.45em;
+}
+
+.content-table-text {
+    font-size: 1.2em;
+}
+
+.content-table-text a {
+    text-decoration: none;
+}
+
+.content-table-text i {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------- RESOURCES TABLE */
+
+.table-responsive {
+    border: none;
+}
+
+.resources-table td {
+    vertical-align: middle;
+    padding: 10px;
+    text-align: left;
+}
+
+.resources-table tr {
+    border-bottom: 1px solid rgba(255, 145, 33, 0.5);
+}
+
+.resources-table .last-row {
+    border-bottom: none;
 }
 
 /* --------------------------------------------------------------------- VIDEO IFRAMES */
