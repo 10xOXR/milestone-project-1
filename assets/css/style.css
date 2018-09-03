@@ -41,11 +41,15 @@ body {
 }
 
 .article-container {
-    margin: 40px 0 80px 0;
+    margin: 40px 0 40px 0;
 }
 
 .article-container.row {
     margin: 0 auto;
+}
+
+.contact-container {    
+    margin-bottom: 80px;
 }
 
 /* --------------------------------------------------------------------- NAVABR */
@@ -157,6 +161,8 @@ nav .container-fluid {
     font-size: 1.45em;
 }
 
+/* --------------------------------------------------------------------- RESOURCES TABLE */
+
 .content-table-text {
     font-size: 1.2em;
 }
@@ -167,10 +173,7 @@ nav .container-fluid {
 
 .content-table-text i {
     font-size: 1.5em;
-    text-align: center;
 }
-
-/* --------------------------------------------------------------------- RESOURCES TABLE */
 
 .table-responsive {
     border: none;
@@ -188,6 +191,57 @@ nav .container-fluid {
 
 .resources-table .last-row {
     border-bottom: none;
+}
+
+.resources-table {
+    vertical-align: middle;
+}
+
+.table-icon,
+.table-text {
+    vertical-align: middle;
+}
+
+.table-text {
+    vertical-align: text-bottom;
+}
+
+.resources-table td {
+    vertical-align: top;
+}
+
+/* --------------------------------------------------------------------- CONTACT FORM */
+
+.contact-form {
+    padding: 20px;
+    background-color: rgba(255, 222, 112, 0.2);
+    border-radius: 20px;
+    border: 1px solid #FF9121;    
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.contact-form .btn-default {
+    background-color: #FF9121;
+    color: #fafafa;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 1);
+    border: 0;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form .btn-default:hover,
+.contact-form .btn-default:active,
+.contact-form .btn-default:focus {
+    background-color: #B44822 !important;
+    color: #ffffff !important;
+}
+
+.contact-text {
+    display: inline-block;
 }
 
 /* --------------------------------------------------------------------- VIDEO IFRAMES */
@@ -308,6 +362,10 @@ footer p {
     .content-single-img {
         margin: 0 auto;
     }
+
+    .resources-table td:first-child {
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 920px) {
@@ -315,5 +373,12 @@ footer p {
         margin-right: 15px;
         width: 95px;
         font-size: .7em;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-table-text {
+        max-width: 80vw;
+        margin: 0 auto;
     }
 }
