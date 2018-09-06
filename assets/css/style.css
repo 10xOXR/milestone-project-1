@@ -366,6 +366,11 @@ footer p {
     .resources-table td:first-child {
         text-align: center;
     }
+
+    .landing-container {
+        background: url("../images/cover-wizards.jpg") top center no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 920px) {
