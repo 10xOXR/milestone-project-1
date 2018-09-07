@@ -303,6 +303,11 @@ footer {
 footer p {
     margin: 0;
 }
+footer a,
+footer a:hover {
+     text-decoration: none;
+     color: #ffffff;
+}
 
 /* --------------------------------------------------------------------- BACK-TO-TOP BUTTON */
 
