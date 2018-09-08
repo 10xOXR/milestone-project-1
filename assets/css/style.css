@@ -161,6 +161,10 @@ nav .container-fluid {
     font-size: 1.45em;
 }
 
+.content-side-text h2 {
+    margin: 0 0 30px 0;
+}
+
 /* --------------------------------------------------------------------- RESOURCES TABLE */
 
 .content-table-text {
@@ -352,7 +356,7 @@ footer a:hover {
     .navbar-btn {
         margin: 1px 0;
         width: 100%;
-        height: 14vh;
+        height: 9vh;
         font-size: 1.8em;
         border-radius: 0;
     }
