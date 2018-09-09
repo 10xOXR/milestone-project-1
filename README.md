@@ -1,12 +1,12 @@
 # Milestone Project: User-Centric Frontend Development (HTML5 / CSS3)
 
-The brief for this Milestone project was to create a website for a band (specifically, The Monkees) and to include various media elements such as pictures, audio, and video, as well as a contact page and links to various social media presences.
+The brief for this Milestone project was to create a website for a band (specifically The Monkees) and to include various media elements such as pictures, audio, and video, as well as a contact page and links to various social media presences.
 
 I decided instead that I would construct a site dedicated to the Discworld series of novels by Sir Terry Pratchett. I felt that I could deliver a better, more personally relevant site than was proposed from the original brief and still achieve the goals it had outlined.
  
 ## UX
  
-I designed the site as an introduction to the Discworld books, providing information and content that would be useful to as broad an audience as possible without overloading a user in detail. The site’s structure and content is a good balance between covering all of the important aspects of the Discworld and its creator and external sources for more in-depth information.  It primarily services the following user types:
+I designed the site as an introduction to the Discworld books, providing information and content that would be useful to as broad an audience as possible without overloading a user in details. The site’s structure and content is a good balance between covering all of the important aspects of the Discworld and its creator, and external sources for more in-depth information.  It primarily services the following user types:
 
 - Users that have no previous knowledge of the stories, the characters, or the different arcs spanning the books, looking to understand what the series is all about and get in touch
 - Users with some general knowledge of the book series, but looking for more information on the adaptations that have been made.
