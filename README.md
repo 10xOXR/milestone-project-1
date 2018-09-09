@@ -44,7 +44,7 @@ The following is a summary of the features already in place and those that could
 
 ### Browser Compatibility
 
-I tested to be sure that it rendered consistently and as expected in all major web browsers, both desktop and mobile versions. This included:
+I tested the site to be sure that it rendered consistently and as expected in all major web browsers, both desktop and mobile versions. This included:
 
 - Ensuring all elements are responsive and that all content is legible.
 - Testing that the Navbar changed as expected in line with media queries, collapsing to a hamburger menu below 768 px.
