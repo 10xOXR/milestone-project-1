@@ -118,7 +118,7 @@ nav .container-fluid {
 .navbar-btn {
     margin-right: 15px;
     width: 125px;
-    height: 60px;
+    height: 50px;
     text-align: center;
     font-weight: bold;
     font-size: 1em;
@@ -149,6 +149,8 @@ nav .container-fluid {
 
 .jumbotron h3 {
     margin: 0 0 30px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 /* --------------------------------------------------------------------- MAIN-IMAGES/TEXT */
