@@ -79,7 +79,7 @@ The Flexbox elements used in the Navbar do not render correctly in Safari on mac
 	- Icon elements used in the ‘Further Resources’ table.
 
 - [jQuery]( https://jquery.com/)
-	- Used to enable the Back-to-Top button functionality. Although outside the scope of this project, its inclusion provides a better used experience.
+	- Used to enable the Back-to-Top button functionality. Although outside the scope of this project, its inclusion provides a better user  experience.
 
 - [Google Fonts]( https://fonts.google.com/)
 	- Fonts used on the site are provided from Google Fonts. They are more visually relevant to the overall design of the site, and cannot be hosted locally on GitHub.
@@ -94,12 +94,12 @@ Local deployment is not required.
 
 Text content on all pages was copied and/or amended from the following sites:
 
-- [TerryPratchettBooks.com](https://www.terrypratchettbooks.com)
-- [Discworld Wiki](http://discworld.wikia.com/wiki/Main_Page)
-- [Goodreads.com](https://www.goodreads.com/series/40650-discworld)
-- [Discworld.com](https://www.discworld.com)
-- [Fandom Discworld Wiki](http://discworld.wikia.com/wiki/Main_Page)
-- [Wikipedia](https://en.wikipedia.org/wiki/Discworld)
+- [TerryPratchettBooks.com](https://www.terrypratchettbooks.com){:target="_blank"}
+- [Discworld Wiki](https://wiki.lspace.org/mediawiki/Main_Page){:target="_blank"}
+- [Goodreads.com](https://www.goodreads.com/series/40650-discworld){:target="_blank"}
+- [Discworld.com](https://www.discworld.com){:target="_blank"}
+- [Fandom Discworld Wiki](http://discworld.wikia.com/wiki/Main_Page){:target="_blank"}
+- [Wikipedia](https://en.wikipedia.org/wiki/Discworld){:target="_blank"}
 
 ## Media
 
@@ -110,4 +110,4 @@ A complete source for all media can be found in the [Project Outline]( https://g
 
 ## Acknowledgements
 
-Perpetual thanks to [Tim Nelson]( https://github.com/TravelTimN) for his suggestions, fixes, and patience while I put this all of this together.
+Perpetual thanks to [Tim Nelson]( https://github.com/TravelTimN) for his suggestions, fixes, and patience while I put all of this together.
