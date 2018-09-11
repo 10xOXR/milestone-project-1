@@ -164,23 +164,31 @@ nav .container-fluid {
 }
 
 .content-side-text,
-.content-table-text {
+.content-table-text,
+.content-intro-text {
     padding: 20px;
     background-color: rgba(255, 222, 112, 0.2);
     border-radius: 20px;
     border: 1px solid #FF9121;
 }
 
-.content-side-text {
+.content-side-text,
+.content-intro-text {
     font-size: 1.45em;
 }
 
-.content-side-text h2 {
+.content-side-text h2,
+.content-intro-text h2 {
     margin: 0 0 30px 0;
 }
 
-.content-side-text p {
+.content-side-text p{
     margin: 0 0 20px 0;
+    margin-top: 0;
+}
+
+.content-multi-img h1 {
+    margin-top: 0px;
 }
 
 /* --------------------------------------------------------------------- RESOURCES TABLE */
