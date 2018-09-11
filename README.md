@@ -94,12 +94,12 @@ Local deployment is not required.
 
 Text content on all pages was copied and/or amended from the following sites:
 
-- [TerryPratchettBooks.com](https://www.terrypratchettbooks.com){:target="_blank"}
-- [Discworld Wiki](https://wiki.lspace.org/mediawiki/Main_Page){:target="_blank"}
-- [Goodreads.com](https://www.goodreads.com/series/40650-discworld){:target="_blank"}
-- [Discworld.com](https://www.discworld.com){:target="_blank"}
-- [Fandom Discworld Wiki](http://discworld.wikia.com/wiki/Main_Page){:target="_blank"}
-- [Wikipedia](https://en.wikipedia.org/wiki/Discworld){:target="_blank"}
+- [TerryPratchettBooks.com](https://www.terrypratchettbooks.com)
+- [Discworld Wiki](https://wiki.lspace.org/mediawiki/Main_Page)
+- [Goodreads.com](https://www.goodreads.com/series/40650-discworld)
+- [Discworld.com](https://www.discworld.com)
+- [Fandom Discworld Wiki](http://discworld.wikia.com/wiki/Main_Page)
+- [Wikipedia](https://en.wikipedia.org/wiki/Discworld)
 
 ## Media
 
